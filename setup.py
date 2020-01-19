@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsis_navkiran", 
-    version="1.0.0",
+    version="1.0.1",
     author="Navkiran Singh",
     author_email="nsingh2_be17@thapar.edu",
     description="TOPSIS implementation in python for multi-criteria decision making",
