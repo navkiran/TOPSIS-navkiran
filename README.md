@@ -1,5 +1,10 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
+> Output is a dataframe with 3 columns
+> - **Alternatives** serial number
+> - Corresponding performance **Score** or closeness to ideal solution
+> - **Rank**
+
 ## To use via command line
 `python3 run.py data.csv 25,25,25,25 -+++`
 
@@ -16,4 +21,12 @@ where + indicates benefit and - indicates cost
 """
 output_dataframe = topsis(decision_matrix,weights,impacts)
 ```
-Based off on a similar package for TOPSIS in R
+## Debugging and Exception Handling
+> The program has several assert statements which raise errors with helpful description in the following cases:
+> - Wrong dimensions of decision matrix (*not* 2D), weights (*not* 1D)
+> - Length of weights and impacts don't match 
+> - Weights or impacts don't match number of attributes
+> - For command line, number of arguments is less than 3 required
+> - File extension must be .csv
+
+*Based off on a similar package for TOPSIS in R*
