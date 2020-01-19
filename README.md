@@ -1,8 +1,10 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
->Class project for DATA ANALYSIS AND VISUALISATION
->Navkiran Singh COE17
->Roll number: 101703365
+```
+Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633
+Navkiran Singh COE17
+Roll number: 101703365
+```
 
 Output is a dataframe with 3 columns
  - **Alternatives** serial number
@@ -11,6 +13,8 @@ Output is a dataframe with 3 columns
 
 ## Installation
 `pip install topsis_navkiran`
+
+*Note the name has an underscore not a hyphen*
 
 ## Upgrade
 `pip install topsis_navkiran --upgrade`
