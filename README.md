@@ -8,6 +8,11 @@ COE17
 Roll number: 101703365
 ```
 
+![Screenshot](/../screenshots/1.png?raw=true "Optional Title")
+![Screenshot](/../screenshots/2.png?raw=true "Optional Title")
+![Screenshot](/../screenshots/3.png?raw=true "Optional Title")
+![Screenshot](/../screenshots/4.png?raw=true "Optional Title")
+
 Output is a dataframe with 3 columns
  - **Alternatives** serial number
  - Corresponding performance **Score** or closeness to ideal solution
