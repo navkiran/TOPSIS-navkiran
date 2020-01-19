@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: topsis-navkiran
-Version: 1.0.1
+Version: 1.0.2
 Summary: TOPSIS implementation in python for multi-criteria decision making
 Home-page: https://github.com/navkiran/topsis_project_navkiran
 Author: Navkiran Singh
@@ -8,9 +8,11 @@ Author-email: nsingh2_be17@thapar.edu
 License: UNKNOWN
 Description: # TOPSIS implementation in python for multi-criteria decision making
         
-        >Class project for DATA ANALYSIS AND VISUALISATION
-        >Navkiran Singh COE17
-        >Roll number: 101703365
+        ```
+        Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633
+        Navkiran Singh COE17
+        Roll number: 101703365
+        ```
         
         Output is a dataframe with 3 columns
          - **Alternatives** serial number
@@ -19,6 +21,8 @@ Description: # TOPSIS implementation in python for multi-criteria decision makin
         
         ## Installation
         `pip install topsis_navkiran`
+        
+        *Note the name has an underscore not a hyphen*
         
         ## Upgrade
         `pip install topsis_navkiran --upgrade`
