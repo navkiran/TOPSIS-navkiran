@@ -5,14 +5,15 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsis_navkiran", 
-    version="0.0.5",
+    version="1.0.0",
     author="Navkiran Singh",
     author_email="nsingh2_be17@thapar.edu",
     description="TOPSIS implementation in python for multi-criteria decision making",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/navkiran/topsis_project_navkiran",
-    packages=setuptools.find_packages(),
+    py_modules=["topsis_navkiran","run"],
+    package_dir={'':'src'},
     keywords = ['command-line', 'topsis-python', 'TOPSIS'],  
     install_requires=[            
           'numpy',
@@ -23,5 +24,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    scripts=["bin/topsis_navkiran_cli"],
     python_requires='>=3.6',
 )

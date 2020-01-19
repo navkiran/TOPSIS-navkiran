@@ -7,6 +7,7 @@ Created on Sun Jan 19 11:17:00 2020
 """
 import numpy as np
 import pandas as pd
+import sys
 
 def topsis(decision,weights,impacts):
     decision = np.array(decision).astype(float)

@@ -1,15 +1,22 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
-Class project for DATA ANALYSIS AND VISUALISATION
-Navkiran Singh COE17
-Roll number: 101703365
-> Output is a dataframe with 3 columns
-> - **Alternatives** serial number
-> - Corresponding performance **Score** or closeness to ideal solution
-> - **Rank**
+>Class project for DATA ANALYSIS AND VISUALISATION
+>Navkiran Singh COE17
+>Roll number: 101703365
+
+Output is a dataframe with 3 columns
+ - **Alternatives** serial number
+ - Corresponding performance **Score** or closeness to ideal solution
+ - **Rank**
+
+## Installation
+`pip install topsis_navkiran`
+
+## Upgrade
+`pip install topsis_navkiran --upgrade`
 
 ## To use via command line
-`python3 run.py data.csv 25,25,25,25 -+++`
+`topsis_navkiran_cli data.csv 25,25,25,25 -+++`
 
 First argument after run.py is filename with .csv extension. The .csv file is assumed to have a structure similar to one provided in topsis_navkiran/data.csv
 
