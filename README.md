@@ -1,8 +1,10 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
 ```
-Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633
-Navkiran Singh COE17
+Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633 Thapar University, Patiala
+Navkiran Singh  
+
+COE17
 Roll number: 101703365
 ```
 
