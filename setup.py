@@ -13,6 +13,11 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/navkiran/topsis_project_navkiran",
     packages=setuptools.find_packages(),
+    keywords = ['command-line', 'topsis-python', 'TOPSIS'],  
+    install_requires=[            
+          'numpy',
+          'pandas',
+      ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
