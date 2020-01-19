@@ -1,5 +1,8 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
+Class project for DATA ANALYSIS AND VISUALISATION
+Navkiran Singh COE17
+Roll number: 101703365
 > Output is a dataframe with 3 columns
 > - **Alternatives** serial number
 > - Corresponding performance **Score** or closeness to ideal solution
