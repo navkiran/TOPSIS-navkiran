@@ -8,7 +8,7 @@ COE17
 Roll number: 101703365
 ```
 
-![Screenshot](/../screenshots/1.png?raw=true "Optional Title")
+![](/../screenshots/1.png?raw=true "Optional Title")
 
 Output is a dataframe with 3 columns
  - **Alternatives** serial number
@@ -18,7 +18,8 @@ Output is a dataframe with 3 columns
 ## Installation
 `pip install topsis_navkiran`
 
-*Note the name has an underscore not a hyphen. If installation gives error or package is not found after installing, install as sudo*
+*Note the name has an underscore not a hyphen. If installation gives error or package is not found after installing, install as sudo.*
+
 *Recommended - test it out in a virtual environment.* 
 
 ## Upgrade
