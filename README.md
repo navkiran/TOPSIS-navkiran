@@ -1,13 +1,5 @@
 # TOPSIS implementation in python for multi-criteria decision making
 
-```
-Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633 Thapar University, Patiala
-Navkiran Singh  
-
-COE17
-Roll number: 101703365
-```
-
 ![](/../screenshots/1.png?raw=true "Optional Title")
 ## Update: Added windows command line support
 
@@ -51,3 +43,11 @@ output_dataframe = topsis(decision_matrix,weights,impacts)
 > - File extension must be .csv
 
 *Based off on a similar package for TOPSIS in R*
+
+```
+Class project for DATA ANALYSIS AND VISUALISATION 2020 - UCS633 Thapar University, Patiala
+Navkiran Singh  
+
+COE17
+Roll number: 101703365
+```
